@@ -20,7 +20,9 @@ Twinkle, twinkle, little star,
 
 # This is the solution to Excercise 1
 print("Twinkle, twinkle, little star, How I wonder what you are!")
+
 print("How I wonder what you are! Up above the world so high, Like a diamond in the sky.")
+
 print("Twinkle, twinkle, little star, How I wonder what you are")
 
 
@@ -33,7 +35,9 @@ print("Twinkle, twinkle, little star, How I wonder what you are")
 
 # This is the solution to Excercise 2
 import sys
+
 print("current python version")
+
 print(sys.version)
 
 &nbsp;
@@ -45,8 +49,11 @@ Write a Python program to display the current date and time.
 
 # This is the solution to Excercise 3
 import datetime as dt
+
 current_datetime = dt.datetime.now()
+
 print("Current date and time")
+
 print(current_datetime)
 
 &nbsp;
@@ -56,7 +63,9 @@ print(current_datetime)
 Write three strings in different variables and print the output as one string.
 # This is the solution to Excercise 4
 a = "apple"
+
 b = "banana"
+
 c = "coke"
 
 print(a,b,c)
@@ -71,9 +80,12 @@ Write a Python program which accepts the radius of a circle from the user and co
 
 # This is the solution to Excercise 5
 from math import pi
+
 radius = int(input("Input Circle Radius: ", ))
 
+
 area = pi*radius**2
+
 print("Circle area with the radius",radius , "is", area)
 
 &nbsp;
