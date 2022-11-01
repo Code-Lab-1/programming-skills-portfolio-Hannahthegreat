@@ -36,3 +36,30 @@ for key,value in p_words.items():
     print(key, value)
 
 # This is the solution to Excercise 4
+river = {
+    'Amazon':'South America',
+    'Yangtze':'China',
+    'Congo':'Africa'
+    }
+
+for key,value in river.items():
+    print(key, "river runs through", value)
+
+# This is the solution to Excercise 5
+rollo = {
+    'pet':'cat','owner':'dana'
+}
+
+mahal = {
+    'pet':'cat', 'owner':'faith'
+}
+
+doge = {
+    'pet':'dog','owner':'hannah'
+}
+
+pets = [rollo,mahal,doge]
+
+for variable in pets:
+    for key,value in variable.items():
+        print(key,value)
