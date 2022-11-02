@@ -14,6 +14,19 @@ Write a loop that prompts the user to enter a series of pizza toppings until the
 print a message saying you’ll add that topping to their pizza.
 
 
+# This is the solution to Excercise 1
+
+print("\tWelcome to freddie's pizzaria")
+print("\nadd as many toppings as you want. \nWhen it's enough type\n\t 'QUIT'")
+
+while 1:
+    topping = input("Insert Topping: ")
+    if topping == 'quit' : break
+    print("\nadding {0} to your pizza".format(topping))
+
+
+print("\nSufficient toppings succesfully added<3")
+
 &nbsp;
 &nbsp;
 
@@ -25,12 +38,33 @@ they are between 3 and 12, the ticket is $10; and if they are over age 12, the t
 
 age, and then tell them the cost of their movie ticket
 
+# This is the solution to Excercise 2
+print("Welcome to the theatre house")
+print("please confirm your age for movie ticket pricings<3")
+
+while 1:
+    age = int(input("How old are you?: "))
+    if age < 3:
+        print("You can have a free ticket!")
+    elif age >= 3 and age <= 12:
+        print("Your ticket will cost you $10")
+    elif age > 12:
+        print("Your ticket will cost you $15")
+    else:
+        print("You have entered an invalid input")
+        print("Please try again,,,")
+
 &nbsp;
 &nbsp;
 
 ## Exercise 3: Infinity :ballot_box_with_check:
 
 Write a loop that never ends, and run it. (To end the loop, press ctrl-C or close the window displaying the output.)
+
+# This is the solution to Excercise 2
+
+while 1:
+    print("This is an infinite loop")
 
 &nbsp;
 &nbsp;
