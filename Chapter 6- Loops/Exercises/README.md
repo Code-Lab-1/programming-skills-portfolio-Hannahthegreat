@@ -62,7 +62,7 @@ while 1:
 Write a loop that never ends, and run it. (To end the loop, press ctrl-C or close the window displaying the output.)
 
 
-# This is the solution to Excercise 2
+# This is the solution to Excercise 3
 
 while 1:
     print("This is an infinite loop")
@@ -78,6 +78,18 @@ Loop through the list of sandwich orders and print a message for each order, suc
 
 move it to the list of finished sandwiches. After all the sandwiches have been made, print a message listing each sandwich that was made.
 
+# This is the solution to Excercise 4
+
+sandwhich_orders = ["egg sandwhich","hotdog sandwhich","steak sandwhich"] #sandwhich orders list 
+finished_sandwhiches = [] # empty finished sandwhiches list
+
+
+for x in sandwhich_orders : #for loop: print sandwhiches and append each variable x in finished sandwhiches
+    finished_sandwhiches.append(x)
+    print("I have made your", x)
+
+print("Finished Sandwhiches:",finished_sandwhiches)
+
 &nbsp;
 &nbsp;
 
@@ -88,6 +100,25 @@ Using the list sandwich_orders from Exercise 7-8, make sure the sandwich 'pastra
 near the beginning of your program to print a message saying the deli has run out of pastrami, and then use a while loop to remove all 
 
 occurrences of 'pastrami' from sandwich_orders. Make sure no pastrami sandwiches end up in finished_sandwiches.
+
+# This is the solution to Excercise 5
+sandwhich_orders = ["egg sandwhich","pastrami","hotdog sandwhich","pastrami","steak sandwhich","pastrami"] #sandwhich orders list 
+finished_sandwhiches = [] # empty finished sandwhiches list
+
+print("Deli has unfortunately ran out of pastrami")
+print("\n")
+
+while 'pastrami' in sandwhich_orders:
+    sandwhich_orders.remove('pastrami')
+    print("Removing pastrami>>>",sandwhich_orders)
+
+print("\n")
+
+for x in sandwhich_orders: 
+    finished_sandwhiches.append(x)
+    print("I have made your", x)
+
+print("\nFinished Sandwhiches:",finished_sandwhiches)
 
 &nbsp;
 &nbsp;
