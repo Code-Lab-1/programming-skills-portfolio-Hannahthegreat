@@ -36,12 +36,13 @@ while 1:
 
 sandwhich_orders = ["egg sandwhich","hotdog sandwhich","steak sandwhich"] #sandwhich orders list 
 finished_sandwhiches = [] # empty finished sandwhiches list
-print(len(finished_sandwhiches)) #length of empty list
+
 
 for x in sandwhich_orders : #for loop: print sandwhiches and append each variable x in finished sandwhiches
     finished_sandwhiches.append(x)
     print("I have made your", x)
-    print(finished_sandwhiches)
+
+print("Finished Sandwhiches:",finished_sandwhiches)
 
 
 # This is the solution to Excercise 5
