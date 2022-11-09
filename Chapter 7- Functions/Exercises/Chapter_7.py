@@ -30,7 +30,7 @@ make_shirt(size='medium')
 make_shirt('small','Programmers are cute')
 
 
-# This is the solution to Excercise 4
+# This is the solution to Excercise 5
 def describe_city(city,country='japan'):
     print(f"\n{city} is in {country}")
 
