@@ -124,3 +124,43 @@ print("\nFinished Sandwhiches:",finished_sandwhiches)
 &nbsp;
 
 
+#Extra Excercises---------------------------------
+#User input will be added in empty list
+list = []
+for i in range (3):
+    user_input = input("Input your values in the list: ")
+    list.append(user_input)
+
+print(list)
+
+#Displaying numbers in range using for loop
+for i in range(10):
+    print(1)
+
+#Displaying numbers using while loop
+z = 0 
+while z < 10:
+  z += 1
+  print(z)
+
+#looping through a list
+favorite_cafes = ["bubbee","starbucks","tim hortons"]
+
+for x in favorite_cafes:
+  print("i love ", x)
+
+
+#looping through a list a user has created
+print("Name your favorite snacks to add to your cart")
+
+snack_list = []
+while True:
+    user_input = input("snacks: ")
+    snack_list.append(user_input)
+    print(user_input, "has been added to your cart!")
+    if user_input == "enuff snacks":
+        break
+
+cart_total = len(snack_list)
+print("Your cart contains", snack_list, "=",cart_total)
+print("Thank you for shopping with us!")
