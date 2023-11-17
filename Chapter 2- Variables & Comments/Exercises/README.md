@@ -15,6 +15,14 @@ Assign a message to a variable, and print that message.
 Then change the value of the variable to a new message, and print the new
 message.
 
+# This is the solution to Excercise 1
+
+sentence_1 = "Hello this is the start of human mass extinction."
+print(sentence_1)
+
+sentence_1 = "Bomb will detonate in 3 seconds."
+print(sentence_1)
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -26,6 +34,11 @@ Your output should look something like the following, including the quotation ma
 
 Albert Einstein once said, “A person who never made a mistake never tried anything new.
 
+# This is the solution to Excercise 2
+quote = "My dog stepped on a bee"
+author = "Amber Heard"
+
+print(author, "once said, ", qoute)
 
 &nbsp;
 &nbsp;
@@ -41,12 +54,24 @@ Print the name once, so the whitespace around the name is displayed.
 Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
 
+# This is the solution to Excercise 3
+
+list = ['\tPatrice\n', '\tSandy\n', '\tPrincess\n']
+print(list[0].lstrip())
+print(list[1].rstrip())
+print(list[2].strip())
+
 &nbsp;
 &nbsp;
 &nbsp;
 ## Exercise 4: Favorite Number :ballot_box_with_check:
 Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. Print
 that message.
+
+# This is the solution to Excercise 3
+fav_num = 14
+
+print("My lucky number is ", fav_num)
 
 &nbsp;
 &nbsp;
@@ -59,6 +84,21 @@ A girl heads to a computer shop to buy some USB sticks. She loves USB sticks and
 Write a programme that calculates how many USB sticks she can buy and how many pounds she will have left.
 
 You will to use the arithmetic operators to complete this exercise.
+
+# This is the solution to Excercise 5
+
+usb = 6
+money = 50
+
+result = int(money/usb)
+change = money-(result*usb)
+
+print("The girl wants to buy USB sticks costing £6 with £50 that she has\n")
+
+print("Formula is {0}/{1}".format(money,usb))
+print(result)
+
+print("\nShe can get {0} usb sticks with £{1} left over".format(result,change))
 
 &nbsp;
 &nbsp;
